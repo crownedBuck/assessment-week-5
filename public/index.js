@@ -69,10 +69,10 @@ function getCountries() {
 
 // I couldn't get Postman to work so I had to do this roundabout way
 
-function seed() {
-    axios.post('http://localhost:4004/seed') 
-}
-seed()
+// function seed() {
+//     axios.post('http://localhost:4004/seed') 
+// }
+// seed()
 getCountries()
 getCities()
 form.addEventListener('submit', handleSubmit)
